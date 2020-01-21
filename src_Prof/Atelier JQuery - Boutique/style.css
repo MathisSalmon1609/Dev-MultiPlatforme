@@ -1,0 +1,27 @@
+.itemDisplayer {
+	margin: 15px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #ececec;
+	font-size: 35px;
+}
+
+.stockDisplayer {
+	color: #464646;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#articleQuantity {
+	width: 50px;
+}
+
+#articleDescription, #articleDelivery {
+	margin: 15px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #ececec;
+}

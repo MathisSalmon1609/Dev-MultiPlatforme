@@ -1,0 +1,13 @@
+jQuery(document).ready(function(){
+	$.getJSON("boutique.json" , function(data));
+	var items = [];
+	$.each(data.boutique[1] , function (key , val){
+	items.push( "<li id='" + key + "'>" + val + "</li>");
+
+  $( "<ul/>", {
+    "class": "my-categories",
+    html: items.join( "" )
+  }).appendTo( "body" );
+
+
+});
